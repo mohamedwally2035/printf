@@ -1,9 +1,11 @@
 #include "main.h"
+void print_buffer(char buffer[], int *buff_ind);
 /**
  * _printf - prints anything
  * @format: the format string
  * Return: sum
  */
+
 int _printf(const char *format, ...)
 {
 	int sum = 0;
