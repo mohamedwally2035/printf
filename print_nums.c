@@ -125,6 +125,7 @@ int print_number_left_shift(char *str, params_t *params)
 	x += _puts(str);
 	while (y++ < params->width)
 		x += _putchar(pa_char);
+
 	return (x);
 }
 
