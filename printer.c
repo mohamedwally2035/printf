@@ -74,6 +74,7 @@ int print_rot13(va_list ap, params_t *params)
 			counter += _putchar(a[x]);
 		x++;
 	}
+
 	return (counter);
 }
 
