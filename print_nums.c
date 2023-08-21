@@ -2,6 +2,7 @@
 
 /**
  * _isdigit - checks if character is digit
+ * 
  * @c: character to check
  * Return: 1 if digit, 0 otherwise
  */
@@ -87,7 +88,7 @@ int print_number_right_shift(char *str, params_t *params)
 		x += _putchar(' ');
 	while (y++ < params->width)
 		x += _putchar(pa_char);
-	if (n && pad_char == ' ')
+	if (n && pa_char == ' ')
 		x += _putchar('-');
 	if (params->plus_flag && !n2 && pa_char == ' ' && !params->unsign)
 		x += _putchar('+');
